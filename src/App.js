@@ -4,6 +4,7 @@ import Login from './components/auth/Login/Login';
 import Otp from './components/auth/OTP/OTP';
 import Forgot from './components/auth/ForgotPass/ForgotPass';
 import ResetPass from './components/auth/ForgotPass/ResetPass';
+import Details from './components/auth/Detail/Detail';
 function App() {
   return ( <>
        <Routes>
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/otp" element={<Otp />} />
         <Route exact path="/forgot" element={<Forgot />} />
         <Route exact path="/reset" element={<ResetPass />} />
+        <Route exact path="/detail" element={<Details />} />
       </Routes>
     </>
   );
