@@ -23,7 +23,9 @@
 .Nav-menu{
     position: absolute;
     right: 36px;
-    cursor: pointer;
+    display: flex;
+    width: 8%;
+    justify-content: space-around;
 }
 .logo-image > .image{
     width: 79%;

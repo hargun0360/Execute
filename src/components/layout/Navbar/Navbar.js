@@ -14,7 +14,12 @@ const Navbar = () => {
 
             </div>
             <div className='Nav-menu'>
-                <i class="fa fa-sign-out" aria-hidden="true" style={{ color: "white", fontSize: "2.2em" }}></i>
+                <div className='sign-out' style={{order: "2"}}>
+                    <i class="fa fa-sign-out" aria-hidden="true" style={{ color: "white", fontSize: "2.2em", cursor: "pointer" }}></i>
+                </div>
+                <div className='qr-code' style={{order: "1"}}>
+                     <i class="fa fa-qrcode" aria-hidden="true" style={{ color: "white", fontSize: "2.2em", cursor: "pointer"}}></i>
+                </div>
                 {/* <LogoutIcon style={{color:"white"}} fontSize="large"/> */}
             </div>
         </div>
